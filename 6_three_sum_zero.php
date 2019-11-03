@@ -6,7 +6,7 @@
 
     function three_sum_zero($arr)
     {
-        $count = count($arr);
+        $count = count($arr)-2;
         $result = [];
         for($x=0; $x<$count; $x++) {
             if($arr[$x] + $arr[$x+1] + $arr[$x+2] == 0) {
